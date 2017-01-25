@@ -1,0 +1,69 @@
+body, html{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav a{
+    padding-right:25px;
+    text-decoration:underline;
+    font-size:1.25em;
+}
+
+nav a:visited{
+    color:blue;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:darkblue;
+}
+
+a:visited:hover{
+    color:darkblue;
+}
+
+a:visited{
+    color:purple;
+}
+
+
+.hero{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),url('img/learn-to-code.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align:center;
+    height:500px;
+}
+
+.herotext{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    font-size:2em;
+    font-style: bold;
+    padding-top:250px;
+}
+
+.container{
+    background-color:white;
+    padding:50px;
+    width:50%;
+    margin:0 auto;
+    text-align:justify;
+}
+
+.container h2{
+    font-family:'Times New Roman', Times, serif;
+    margin-top:25px;
+    text-align:left;
+}
+

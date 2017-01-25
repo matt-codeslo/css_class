@@ -1,0 +1,10 @@
+article{
+    width:50%;
+    margin:0 auto;
+}
+
+.floatme{
+    width:400px;
+    padding:0 10px 5px 0;
+    float:left;
+}

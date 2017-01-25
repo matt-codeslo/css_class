@@ -1,0 +1,36 @@
+html, body{
+    margin:0;
+    padding:0;
+    border:0;
+    height:100%;
+    width:100%;
+}
+
+.hero{
+    margin-top:-50px;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+      ),url("http://cdn.playbuzz.com/cdn/639f09a7-e6e7-4755-bdf0-d22e9d2a7528/ddc3a688-03b5-4dd6-9a08-78af32de84b6.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align:center;
+    height:500px;
+
+}
+
+.hero h1{
+    position:relative;
+    top:350px;
+    font-size:4em;
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center;
+}
+
+.container{
+    width:60%;
+    margin:0 auto;
+    text-align:justify;
+}
